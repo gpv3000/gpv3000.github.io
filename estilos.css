@@ -14,8 +14,9 @@
     padding-right: 2em;
     height: 70px;
 }
-.menu-mobile i, .cart i {
+.menu-mobile__logo, .cart__logo, .close__logo {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .main-header__logo {
     text-transform: uppercase;
@@ -23,12 +24,23 @@
 .main-menu {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -250px;
     height: 100vh;
     background-color: #222;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 2em;
+    width: 200px;
+    will-change: left;
+    transition: left .5s;
+}
+.main-menu.menu-open {
+    left: 0;
+}
+.close {
+    position: absolute;
+    top: 2em;
+    left: 110%;
 }
 .menu {
     list-style: none;
