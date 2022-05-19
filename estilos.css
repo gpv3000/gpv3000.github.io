@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: sans-serif;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 70px;
+}
+.menu-mobile i, .cart i {
+    font-size: 1.5em;
+}
+.main-header__logo {
+    text-transform: uppercase;
+}
+.main-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #222;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+}
+.menu {
+    list-style: none;
+    padding-left: 0;
+}
+.menu__item {
+    margin-bottom: 0.5em;
+}
+.menu__link {
+    font-size: 1.2em;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em;
+    color: #eee;
+}
