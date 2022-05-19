@@ -29,7 +29,7 @@
     background-color: #222;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 2em;
+    padding-top: 80px;
     width: 200px;
     will-change: left;
     transition: left .5s;
@@ -39,7 +39,7 @@
 }
 .close {
     position: absolute;
-    top: 2em;
+    top: 80px;
     left: 110%;
 }
 .menu {
